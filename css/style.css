@@ -1,0 +1,166 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  outline: #888;
+  
+}
+
+button {
+  background: none;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  color: #888;
+  font-size: 26px;
+  width: 120px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-family: Lato, sans-serif;
+  cursor: pointer;
+}
+button:hover {
+  color: #333;
+}
+
+#buttons {
+  margin: 0 auto 0 auto;
+}
+
+text {
+  color: #888;
+  font-size: 18px;
+  font-family: Lato, sans-serif;
+}
+
+.total-savings-calculator-pos {
+  color: green;
+  font-size: 18px;
+  font-family: Lato, sans-serif;
+}
+
+.total-savings-calculator-neg {
+  color: red;
+  font-size: 18px;
+  font-family: Lato, sans-serif;
+}
+
+.weather-alert-pos {
+  color: green;
+  font-size: 12px;
+  font-style: italic;
+  font-family: Lato, sans-serif;
+}
+
+.weather-alert-neg {
+  color: red;
+  font-size: 12px;
+  font-style: italic;
+  font-family: Lato, sans-serif;
+}
+
+#map {
+  min-width: 200px;
+  width: 60%;
+  min-height: 200px;
+  height: 80%;
+  margin: 0 auto 0 auto;
+}
+
+.controls,
+.controls2 {
+  margin-top: 10px;
+  border: 1px solid transparent;
+  border-radius: 2px 0 0 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  height: 32px;
+  outline: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+#origin-input,
+#destination-input {
+  background-color: #fff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 12px;
+  padding: 0 11px 0 13px;
+  text-overflow: ellipsis;
+  width: 200px;
+}
+
+#origin-input:focus,
+#destination-input:focus {
+  border-color: #4d90fe;
+}
+
+#available-parking-default,
+#safety-default {
+  color: #fff;
+  background-color: #4d90fe;
+  font-size: 16px;
+  font-family: Lato, sans-serif;
+  margin-left: 12px;
+}
+
+#mode-default {
+  color: #fff;
+  background-color: #4d90fe;
+  font-size: 16px;
+  font-family: Lato, sans-serif;
+  margin-left: 12px;
+  padding: 5px 11px 0px 11px;
+}
+
+#available-parking-red,
+#safety-red {
+  color: #fff;
+  background-color: red;
+  font-size: 16px;
+  font-family: Lato, sans-serif;
+  margin-left: 12px;
+}
+
+#available-parking-yellow,
+#safety-yellow {
+  font-color: #fff;
+  background-color: yellow;
+  font-size: 16px;
+  font-family: Lato, sans-serif;
+  margin-left: 12px;
+}
+
+#available-parking-green, 
+#safety-green {
+  color: #fff;
+  background-color: green;
+  font-size: 16px;
+  font-family: Lato, sans-serif;
+  margin-left: 12px;
+}
+
+.controls2 {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    color: black;
+    background-color: #f9f9f9;
+    font-size: 12px;
+    min-width: 110px;
+    max-width: 110px;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
+    padding: 4px 2px;
+    z-index: 1;
+}
+
+.controls2:hover .dropdown-content {
+    display: block;
+}
+</style>
